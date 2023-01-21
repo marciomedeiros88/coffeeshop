@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNC Coffee</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar background-coffee navbar-expand-sm shadow p-3 z-index-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">
+                <img src="./assets/img//logocoffee.svg" alt="Logo" width="180" class="d-inline-block align-text-top">
+            </a>
+
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="nav-link text-dark border-0 bg-white" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Sobre</button>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="#">Ajuda</a>
+                </li>
+            </ul>
+            <a href="" class="btn btn rounded-pill ms-auto border" id="fazerpedido">Fazer pedido</a>
+        </div>
+    </nav>
+    <main>
+        <!-- Modal -->
+        <div class="modal fade border-0 estilomodal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="border-bottom: 0;">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <h2>Quem somos nós? </h2>
+                        <p>Tudo o que fazemos procura respeitar essa conexão, desde nosso compromisso com o café de
+                            melhor qualidade do mundo até a forma como nós interagimos com nossos clientes e nossas
+                            comunidades para conduzir nosso negócio de modo responsável.</p>
+                        <img src="./assets/img/coffee.png" alt="Imagem xícara">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="col-12">
+        <section class="row">
+            <img src="./assets/img/banner.png" alt="Imagem banner" class="img-fluid mx-auto">
+        </section>
+    </main>
+    <main class="container">
+        <section class="row p-3 col-12 m-0 container d-flex justify-content-center">
+            <div class="card p-0 border-0 col-md-3 shadow-sm me-2" style="width: 22%;">
+                <img src="./assets/img/cafe1.png" class="card-img-top" alt="...">
+                <div class="card-body p-3">
+                    <p class="card-text">Nossa loja de café se encontra em um lugar, 100% fictício, porém caso se sinta
+                        interessado pode vir tomar um café conosco em nossa sede em São José dos Campos.</p>
+                </div>
+            </div>
+            <div class="card p-0 border-0 col-md-3 shadow-sm me-2" style="width: 22%;">
+                <img src="./assets/img/cafe2.png" class="card-img-top" alt="...">
+                <div class="card-body p-3">
+                    <p class="card-text">Nossa casa de café é a melhor da região, aqui você tem tudo que precisa, uma
+                        boa conversar, bons amigos e um ambiente sem igual. Aproveite, pois Melhor que a DNC não existe!
+                    </p>
+                </div>
+            </div>
+            <div class="card p-0 border-0 col-md-3 shadow-sm me-2" style="width: 22%;">
+                <img src="./assets/img/cafe3.png" class="card-img-top" alt="...">
+                <div class="card-body p-3">
+                    <p class="card-text">Por que a DNC? Porque podem contar sempre com um serviço genuíno, uma atmosfera
+                        acolhedora e uma incrível xícara de café, torrado por especialistas e preparado de forma
+                        enriquecedora.</p>
+                </div>
+            </div>
+            <div class="card p-0 border-0 col-md-3 shadow-sm me-2" style="width: 22%;">
+                <img src="./assets/img/cafe4.png" class="card-img-top" alt="...">
+                <div class="card-body p-3">
+                    <p class="card-text">A escola especialista em formar talentos, com foco em empregabilidade, migração
+                        de carreira e aumento de performance.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
