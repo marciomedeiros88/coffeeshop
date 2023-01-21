@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    font-weight: 600;
+}
+
+nav, a{
+    font-weight: 600;
+}
+
+.container-fluid a{
+    font-weight: 600;
+}
+
+#fazerpedido:hover{
+    background-color: black;
+    color:white;
+}
+
+.background-coffee{
+    background-color: white;
+}
+
+.z-index-nav{
+    z-index: 1;
+}
+
+.estilomodal{
+    margin-top: 10%;
+}
